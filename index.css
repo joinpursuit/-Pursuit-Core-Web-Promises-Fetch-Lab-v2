@@ -1,0 +1,22 @@
+#all-jokes{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.card{
+    height:80px;
+    width: 200px;
+    border: black solid 3px;
+    padding: 9px;
+    margin: 8px;
+    white-space: pre-line;
+}
+.noshow{
+    visibility: hidden;
+}
+.bigDiv{
+    height: 120px;
+}
