@@ -1,0 +1,20 @@
+section {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+
+.card {
+    height: fit-content 80px;
+    width: fit-content 40px;
+    padding: 5px;;
+    border: 1px solid black;
+    background-color: lightskyblue;
+}
+
+/* listen for click on card to change to visibility: visible */
+h5 {
+    visibility: hidden;
+   
+}
