@@ -6,6 +6,7 @@ const notifyPass = async ({ username, numSuites, repoName, webhookUrl }) => {
   await postToSlack(webhookUrl, msg);
 };
 
+
 const notifyFail = async ({
   username,
   numSuites,
@@ -21,6 +22,7 @@ const notifyFail = async ({
   console.log(msg);
   await postToSlack(webhookUrl, msg);
 };
+
 
 const postToSlack = async (webhookUrl, msg) => {
   try {
