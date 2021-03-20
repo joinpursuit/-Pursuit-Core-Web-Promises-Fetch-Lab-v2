@@ -14,5 +14,8 @@
     "junit-report-merger": "^2.1.0",
     "junitxml-to-javascript": "^1.1.4",
     "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
